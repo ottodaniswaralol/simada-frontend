@@ -3,7 +3,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 // ============================================================
 // CONFIG - ganti BASE_URL sesuai backend lo
 // ============================================================
-const BASE_URL = 'https://simada-kelompok-5.infinityfreeapp.com/api'; // sesuaikan dengan URL backend lo
+const BASE_URL = 'simada-proxy.ottodaniswara95.workers.dev/api'; // sesuaikan dengan URL backend lo
 
 const api = {
   post: async (endpoint, body, token) => {
