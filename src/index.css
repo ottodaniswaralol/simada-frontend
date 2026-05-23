@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-gray-50 text-gray-800;
+}
+
+@theme {
+  --color-bakrie-maroon: #800000;
+  --color-bakrie-dark: #4A0000;
+  --color-bakrie-light: #FFF5F5;
+  --color-bakrie-gold: #D4AF37;
+}
